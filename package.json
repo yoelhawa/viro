@@ -1,0 +1,56 @@
+{
+  "_from": "git+https://github.com/ktemby/viro.git",
+  "_id": "react-viro@3.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-viro",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-viro@git+https://github.com/ktemby/viro.git",
+    "name": "react-viro",
+    "escapedName": "react-viro",
+    "rawSpec": "git+https://github.com/ktemby/viro.git",
+    "saveSpec": "git+https://github.com/ktemby/viro.git",
+    "fetchSpec": "https://github.com/ktemby/viro.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ktemby/viro.git#16e35b13f9e01d3343f5e01f22cf11f312ac3ea9",
+  "_spec": "react-viro@git+https://github.com/ktemby/viro.git",
+  "_where": "/Users/user924130/Desktop/Yoel/sample6/ViroSample",
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  },
+  "deprecated": false,
+  "description": "Viro React is a platform for developers to rapidly build augmented reality (AR) and virtual reality (VR) experiences. Developers write in React Native, and Viro runs their code natively across all mobile VR (including Google Daydream, Samsung Gear VR, and Google Cardboard for iOS and Android) and AR (iOS ARKit and Android ARCore) platforms. [More info here](http://docs.viromedia.com/).",
+  "files": [
+    "components",
+    "android/react_viro",
+    "android/viro_renderer",
+    "android/gvr_common",
+    "android/arcore_client",
+    "ios/dist",
+    "ios/ViroReact.podspec",
+    "bin",
+    "LICENSE"
+  ],
+  "jest": {
+    "preset": "react-native"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-viro",
+  "peerDependencies": {
+    "react": "16.11.0",
+    "react-native": "0.62.2"
+  },
+  "scripts": {
+    "start": "echo 'I dont think you meant to run npm start here.'",
+    "test": "jest"
+  },
+  "version": "3.0.0"
+}
